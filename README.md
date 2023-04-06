@@ -1,4 +1,4 @@
 # Gambler's Delight Web
 Web-based version of Gambler's Delight powered by Rails.
 
-![Screenshot 2023-04-05 at 23-12-52 Gambler's Delight Web](https://user-images.githubusercontent.com/79682953/230263279-5cf69d2d-5e4a-4d06-885e-f9a8768d04d5.png)
+![Screenshot 2023-04-05 at 23-59-18 Gambler's Delight Web](https://user-images.githubusercontent.com/79682953/230268733-6fa45617-4488-4024-b3a4-e5b43e004c4b.png)
