@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="gdicon.png" type="image/x-icon">
+	<title>Gambler's Delight Web</title>
+</head>
+<body>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Karla:ital,wght@0,300;1,300&family=Tillana:wght@500&family=Rubik:ital@0;1&family=Space+Grotesk:wght@300;400;500;600&family=Work+Sans:wght@200;300&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  user-select: none;
+}
+
+.bgimg {
+  background-image: url('lonelysunshine.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Monaco";
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+
+.topleft p {
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+.topleft img {
+	position: absolute;
+	top: 25px;
+	filter: drop-shadow(0px 0px 10px #6b6a9a);
+}
+
+#flourish {
+	position: absolute;
+	top: 12px;
+	left: -30px;
+	transform: rotate(-10deg);
+	filter: brightness(0.9) contrast(1.1);
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  font-size: 16px;
+  font-family: "Tillana";
+  color: #7079c5;
+}
+
+.git img {
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	transform: rotate(3deg);
+	filter: drop-shadow(5px 5px 40px #bbb5f2ad);
+	transition: transform 1s, filter 1s;
+}
+
+.git img:hover {
+	transform: scaleX(1.05) scaleY(1.05) rotate(5deg);
+}
+
+
+
+#f1 {
+	font-family: "Space Grotesk";
+	font-style: italic;
+	font-weight: 600;
+		color: #cdc9ff;
+		position: absolute;
+}
+
+#f2 {
+	font-family: "Space Grotesk";
+	font-style: italic;
+	font-weight: 600;
+		color: #cdc9ff;
+		position: absolute;
+		top: 25px;
+}
+
+#f3 {
+	font-family: "Space Grotesk";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 23px;
+	color: #a9abff;
+	position: absolute;
+	top: 53px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+
+<div class="bgimg">
+	<img src="flourish.png" id="flourish" width="320px" height="130px">
+  <div class="topleft">
+  	<img src="gdicon.png" width="100px">
+    <p><span id="f1">Gambler's</span><span id="f2">Delight</span><span id="f3">Web</span></p>
+  </div>
+  <div class="middle">
+    <h1>coming soon.</h1>
+  </div>
+  <div class="bottomright">
+    <p>A project from PocketRice.</p>
+  </div>
+  <div class="git">
+  	<a href="https://github.com/pocketrice" target="_blank"><img src="pocketrice.png" width="70px"></a>
+  </div>
+</div>
+
+</body>
+</html>
