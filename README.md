@@ -1,4 +1,4 @@
 # Gambler's Delight Web
-Rails web variant of Gambler's Delight as part of GDJFX v1.3.
+Web-based version of Gambler's Delight powered by Rails.
 
-![Screenshot 2023-04-05 at 21-37-33 Gambler's Delight Web](https://user-images.githubusercontent.com/79682953/230251009-fac83afe-3865-41e8-a38b-1da23fd10555.png)
+![Screenshot 2023-04-05 at 23-12-52 Gambler's Delight Web](https://user-images.githubusercontent.com/79682953/230263279-5cf69d2d-5e4a-4d06-885e-f9a8768d04d5.png)
